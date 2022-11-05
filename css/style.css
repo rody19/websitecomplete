@@ -1,0 +1,247 @@
+body {
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgrey;
+}
+
+.navigatie {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: x-large;
+    margin: 2%;
+    padding: 1%;
+    border-style: outset;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projecten {
+    flex-direction: row;
+    display: flex;
+    font-size: 1em;
+    justify-content: space-evenly;
+}
+
+
+#introductie {
+    font-size: x-large;
+    max-width: 30vw;
+    text-align: center;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+
+#hobbyLinks {
+    width: 40vw;
+    justify-content: center;
+    text-align: center;
+}
+
+#vaardighedenRechts {
+    background-color: gray;
+    width: 40vw;
+    text-align: center;
+
+}
+
+.hobby {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    background-color: grey;
+    border-style: inset;
+    max-width: 90vw;
+    margin: auto;
+}
+
+#fotorody {
+    max-width: 100%;
+    height: auto;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+}
+
+
+#imagecat {
+    height: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.navigatie a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+h5 {
+    color: black;
+
+}
+
+.formrule {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: xx-large
+}
+
+label {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 4px;
+}
+
+select {
+    font-size: 1em;
+
+}
+
+button {
+    padding: 4px 14px;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+    body {
+        background-color: lightgrey;
+        justify-content: center;
+
+
+    }
+
+    .hobby {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+    }
+
+    #introductie {
+        font-size: small;
+    }
+
+    .navigatie {
+        font-size: small;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: large;
+    }
+
+    .projecten {
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width:1023px) {
+    body {
+        background-color: lightgrey;
+    }
+
+    .projecten {
+        display: flex;
+        font-size: 1em;
+    }
+
+}
+
+
+
+
+/* SMALL LAPTOP */
+@media (min-width: 1024px) and (max-width:1199px) {
+
+
+
+
+    .blend-before {
+        display: flex;
+        justify-content: center;
+    }
+
+    #projecten {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        background-color: lightgrey;
+    }
+
+    .projecten {
+        font-size: 1.5em;
+    }
+
+
+}
+
+
+
+/* WIDE MONITOR */
+@media (min-width: 1200px) {
+
+    body {
+        background-color: lightgrey;
+    }
+
+}
